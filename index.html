@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eriks Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eriks Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Par mani</a></li>
+                <li><a href="#skills">Prasmes</a></li>
+                <li><a href="#projects">Projekti</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Services</button>
+                    <div class="dropdown-content">
+                      <a href="burger.html"><p>Burgeru vietne</p></a>
+                    </div>
+                  </div>
+                <button onclick="myFunction()">Toggle dark mode</button>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Par mani</h2>
+        <p>Mani sauc Eriks, macos RVT 3. kursā. Vēlos iegūt zinašanas programmešana. </p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Prasmes</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <progress value="80" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <progress value="20" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <progress value="40" max="100"></progress>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projekti</h2>
+        <div class="project">
+            <h3>Slēpena dienasgramata</h3>
+            <p>Speciala programma, kur varēta ierakstīt visu ko jūs velaties, nakotne būs portets, kā aplikacijā.</p>
+            <a href="https://github.com/Oldoge/Secretdiary2">Apskatīt projektu</a>
+    </section>
+    <section id="contact">
+        <h2>Kontakti</h2>
+        <p>Seko man sociālajos tīklos:</p>
+        <a href="https://www.instagram.com/mbgm7177/">Instagram</a>
+        <a href="https://t.me/mbgm7177">Telegram</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Eriks Portfolio</p>
+        <a href="burger.html"><img src="https://mcdonalds.lv/wp-content/uploads/2019/07/McD_web2021_McChicken-2.png" alt="Image 1" height="5px" ></a href>
+    </footer>
+<script src="script.js"></script>  
+</body>
+</html>

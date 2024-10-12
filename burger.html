@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Site</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#McChicken">McChicken</a></li>
+                <li><a href="#bigtasty">Big Tasty</a></li>
+                <button onclick="myFunction()">Toggle dark mode</button>
+            </ul>
+        </nav>
+    </header>
+    <section id="McChicken">
+        <div class="card" >
+            <div class="card-item" >
+                <img src="https://mcdonalds.lv/wp-content/uploads/2019/07/McD_web2021_McChicken-2.png" alt="Image 1">
+                <h3>McChicken™</h3>
+                <p>100% vistas gaļa dabiskā, kraukšķīgā panējumā, svaigās salātlapas un majonēzes mērce padarījušas McChicken™ par neapstrīdamu veiksmes stāstu kopš 1980. gada.</p>
+                <button id="myBtn">Vairāk info</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button><a href="https://wolt.com/lv/lva/riga/restaurant/mcdonalds-vecriga/mcchicken-itemid-66f61f79fe66eb3fc85f816d?search=Mcchicken">Buy Now </a href></button>
+                        <p>100% vistas gaļa dabiskā, kraukšķīgā panējumā, svaigās salātlapas un majonēzes mērce padarījušas McChicken™ par neapstrīdamu veiksmes stāstu kopš 1980. gada.</p>    
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="bigtasty">
+        <div class="card" >
+            <div class="card-item" >
+                <img src="https://mcdonalds.lv/wp-content/uploads/2019/07/McD_web2021_BigTastyBaconi.png" alt="Image 2">
+                <h3> Big Tasty™ ar bekonu</h3>
+                <p>Vēlies pievienot ko kraukšķīgu? Dubultais Big Tasty™ ar bekonu ir pareizā izvēle! Dubultā 100% liellopu gaļa, Emmental siers, svaigi sīpoli, tomāta šķēlīte, svaigi salāti, kraukšķīgs bekons un unikālā Big Tasty™ mērce. Vai esi gatavs nobaudīt?</p>
+                <button><a href="https://wolt.com/lv/lva/riga/restaurant/mcdonalds-merkela/big-tasty-ar-bekonu-itemid-66f5e15efd6b73daca88a920">Buy Now</button>        
+            </div>
+        </div>
+    </section>
+<script src="script.js"></script>   
+</body>
+</html>
